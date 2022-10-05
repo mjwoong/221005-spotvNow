@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box ;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    background-image: url('spotv.png');
+    background-size: cover;
+    display: flex;
+    justify-content: space-between  ;
+    flex-direction: row-reverse ;
+
+    position: relative;
+}
+
+.box {
+margin: 0;
+padding: 0;
+
+width: 29.2vw;
+height: 100vh  ;
+border: 0px ;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgba(18, 18, 18, 0.9) ;
+opacity: 0.95 ;
+
+}
+
+.logo {
+    margin-top: 200px;
+    margin-bottom: 60px;
+    background-image: url('spotv-logo.png');
+    background-repeat: no-repeat ;
+    width: 180px;
+    height:30px ;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    color:  #888888;
+}
+
+.id {
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 328px;
+    height: 52px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: #353535;
+    font-size: 15px;
+    color: white ;
+}
+
+.password {
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 328px;
+    height: 52px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background-color: #353535;
+    font-size: 15px;
+    color: white ;
+}
+
+.check {
+    margin-right: 10px;
+}
+
+.loginBtn {
+    background-color:  #2affcc;
+    opacity: 0.2;
+    margin-top: 40px;
+    width: 330px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0;
+    outline: 0;
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.sns {
+    width: 29.2vw;
+    height: 120px;
+    margin-top: 60px;
+
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+
+    color: white;
+    font-size: 14px ;
+    font-weight: 350;
+    
+}
+
+.iconBox{
+    display: flex;
+    margin: 15px;
+    padding: 0px 130px;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 29.2vw ;
+    height: 300px ;
+    
+}
+
+.kakao {
+    background-image: url("kakao-circle.png");
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+}
+
+.naver {
+    background-image: url("naver-circle.png");
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+}
+
+.facebook {
+    background-image: url("facebook-circle.png");
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+}
+
+.apple {
+    background-image: url("apple-circle.png");
+    background-size: cover;
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+    border: 0;
+    outline: 0;
+} 
+
+.bottomBox {
+    width: 29.2vh;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    color: white;
+    font-size: 13px;
+    word-spacing: 1px;
+    line-height: 30px;
+}
+
+.foot {
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    font-size: 12px;
+    color: white ;
+    line-height: 23px;
+}
